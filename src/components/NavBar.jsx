@@ -29,6 +29,9 @@ export default function NavBar() {
   const handler = () => {
     router.push("/about");
   };
+  if (pathName.includes("dashboard")) {
+    return <div className="bg-green-400">Dashboard Layout</div>;
+  }
   return (
     <nav className="bg-red-500 px-6 py-4 flex justify-between items-center">
       <h6 className="text-3xl">
