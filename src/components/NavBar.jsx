@@ -24,6 +24,10 @@ export default function NavBar() {
       title: "Blogs",
       path: "/blogs",
     },
+    {
+      title: "Categories",
+      path: "/categories",
+    },
   ];
 
   const handler = () => {
