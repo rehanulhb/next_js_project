@@ -1,8 +1,6 @@
 import React from "react";
 
 export default function CategoriesPage() {
-  return (
-  <div className="h-screen">
-    Categories Page
-    </div>);
+  console.log(name);
+  return <div className="h-screen">Categories Page</div>;
 }
